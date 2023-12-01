@@ -18,8 +18,8 @@
             <header class="text-center">
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS21QQs3kWvFjA1iunhwKB0DbaEnUCU9uBKhNG1yxY0&s" alt="Logo" />
               <div class="my-4">
-                <input type="text" class="form-control w-50 d-inline-block mx-3"/>
-                <button class="btn btn-secondary align-middle" >Add Task</button>
+                <input type="text" class="form-control w-50 d-inline-block mx-3" v-model="newList" />
+                <button class="btn btn-secondary align-middle" @click="addList()">Add Task</button>
               </div>
             </header>
             <main>

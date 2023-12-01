@@ -19,12 +19,13 @@
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS21QQs3kWvFjA1iunhwKB0DbaEnUCU9uBKhNG1yxY0&s" alt="Logo" />
               <div class="my-4">
                 <input type="text" class="form-control w-50 d-inline-block mx-3"/>
-                <button class="btn btn-secondary align-middle">Add Task</button>
+                <button class="btn btn-secondary align-middle" >Add Task</button>
               </div>
             </header>
             <main>
               <ul class="list-group">
-                <li class="list-group-item d-flex justify-content-between">
+                <li class="list-group-item d-flex justify-content-between" v-for="(list,index) in todoList" :key="index">
+                  {{list.text}}
                   <i class="fa-solid fa-trash" style="cursor: pointer"></i>
                 </li>
               </ul>

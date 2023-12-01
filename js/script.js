@@ -16,6 +16,7 @@ createApp({
                 this.todoList = res.data;
             })
         },
+        
     },
     mounted(){
         this.readList();

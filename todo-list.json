@@ -1,17 +1,13 @@
 [
     {
-        "id":1,
-        "text": "Fare i compiti",
-        "done": "false"
+        "text":"Fare i compiti",
+        "done":false
     },
+    {   "text":"Fare la spesa",
+        "done":true
+    },  
     {
-        "id":2,
-        "text": "Fare la spesa",
-        "done": "true"
-    },
-    {
-        "id":3,
-        "text": "Telefonare a mamma",
-        "done": "false"
+        "text":"Telefonare a mamma",
+        "done":false
     }
 ]
